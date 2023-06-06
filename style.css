@@ -1,0 +1,44 @@
+* {
+    border: 1px red solid;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#timer {
+    display: flex;
+    justify-content: end;
+    font-size: 36px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+#quizContainer {
+    width: 50%;
+    background-color: aqua;
+}
+
+.ans-btn {
+    display: block;
+}
+
+#ansChoices {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin: 15px;
+}
+
+#submit-btn {
+    margin: 15px;
+}
